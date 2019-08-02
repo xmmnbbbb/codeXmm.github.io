@@ -1,0 +1,50 @@
+public class Member {
+	
+	private String name;
+	private int id;
+	private String pwd;
+	private int score;
+	private String sDate;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public String getsDate() {
+		return sDate;
+	}
+	public void setsDate(String sDate) {
+		this.sDate = sDate;
+	}
+	public String getPwd() {
+		return pwd;
+	}
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	public Member(String name, int id, String pwd, int score,String sDate) {
+		this.name = name;
+		this.id = id;
+		this.pwd = pwd;
+		this.score = score;
+		this.sDate=sDate;
+	}
+	public Member() {
+	}
+}
